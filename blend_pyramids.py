@@ -12,7 +12,7 @@ apple_orange = np.hstack((apple[:,:256], orange[:, 256:]))
 
 #With pyramids:
 
-#1. Find gaussian pyramids for apple and orange(6 levels in this case)
+#1. Find gaussian pyramids for apple and orange(5 levels in this case)
 apple_copy = apple.copy()
 gp_apple = [apple_copy]
 
